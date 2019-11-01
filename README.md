@@ -1,4 +1,4 @@
-# Xây dựng Storage Layer
+# Xây dựng Key-Value Store
 
 Trong kiến trúc của ZPD, package TiKVClient còn đóng luôn vai trò giao tiếp với PD để lấy metadata và gọi TiKV, nói chung ở tầng storage này ta sử dụng TiKVClient như là một SDK để có thể sử dụng tất cả các API của TiKV.
 
